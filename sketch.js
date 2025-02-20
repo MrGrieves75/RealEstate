@@ -9,12 +9,11 @@ function setup() {
   neuralNetwork.setOneInputNeuronLabel("Ville" , 1);
   neuralNetwork.setOneInputNeuronLabel("Année" , 2);
   neuralNetwork.setOneInputNeuronLabel("Pièces" , 3);
-  neuralNetwork.setOneOutputNeuronLabel("OUI", 0);
   
 }
 
 function draw() {
   background(255);
-  neuralNetwork.update();
+  neuralNetwork.update(); 
   neuralNetwork.render();
 }

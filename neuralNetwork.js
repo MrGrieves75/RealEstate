@@ -77,7 +77,7 @@ class NeuralNetwork
                 if(this.count == 0)
                     this.setOneOutputNeuronLabel("Prix", 0);
                 else
-                    this.setOneOutputNeuronLabel(floor(random (200, 5000)) + " k€", 0);
+                    this.setOneOutputNeuronLabel(floor(random (100, 1000)) + " k€", 0);
 
                 this.count++;
             }
